@@ -78,6 +78,10 @@ def numeroOtimo(a):
 
 somaDeQuadrados = calcula_sqic(iris)
 
+'''
+NÚMERO ÓTIMO DE CLUSTERS
+'''
+
 numOtimo = numeroOtimo(somaDeQuadrados)
 
 k_medias = KMeans(n_clusters=numOtimo)
